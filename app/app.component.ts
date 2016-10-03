@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { Bounce } from 
+import { Bounce } from '../node_modules/bounce.min.js';
 
 @Component({
     selector: 'my-app',
-    template: '<h1>My First Angular 2 App</h1>'
+    template: '<h1>Kice Sanders</h1>'
 })
+
 export class AppComponent {
     bounce: new Bounce();
     bounce.translate({
